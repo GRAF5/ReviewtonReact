@@ -1,0 +1,37 @@
+button{
+    border: 0;
+    border-radius: 3px;
+    background-color:#009fff;
+    font-size: 18px;
+    padding: 7px 15px;
+    color: white;
+    cursor: pointer;
+    height: 42px;
+}
+
+.success{
+    background-color: #00c851;
+    color: white;
+}
+.warning{
+    background-color: #ffbb33;
+    color: white;
+}
+.danger{
+    background-color: #ff3547;
+    color: white;
+}
+button:disabled,
+button[disabled]{
+  background-color: #cccccc;
+  cursor: not-allowed ;
+}
+
+button.iconButton{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    display: flex;
+}

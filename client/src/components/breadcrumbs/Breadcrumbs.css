@@ -1,0 +1,21 @@
+.breadcrumbs{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* изменение цвета последнего child
+.breadcrumbs li:last-child a{
+    color: #282c34;
+}
+*/
+.crumb a{
+    color: #939393;
+}
+.crumb a:hover{
+    text-decoration: underline;
+}
+.crumb-separator{
+    color: #939393;
+    padding: 0 5px;
+}

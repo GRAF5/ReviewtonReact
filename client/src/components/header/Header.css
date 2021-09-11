@@ -1,0 +1,49 @@
+header{    
+    background-color: #282c34;
+    width: 100%;
+    height: 70px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    justify-content: space-between;
+}
+.leftElements{
+    display: flex;
+}
+.rightElements{
+    display: flex;
+}
+.links a{
+    color: #939393;
+}
+.mainLink a{
+    color: white;
+}
+.admin.popover{
+    width: 210px;
+    display: inline-block;
+    color: #939393;
+}
+.admin.popover ul{
+    width: 210px;
+    position: absolute;
+    color: #939393;
+    background-color: #41464e;
+    list-style-type: none;
+    margin-top: 23px;
+    padding: 0;
+}
+.admin.popover ul li{
+    height: 48px;
+    align-items: center;
+    display: flex;
+}
+.admin.popover ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

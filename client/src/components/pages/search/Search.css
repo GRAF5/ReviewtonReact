@@ -1,0 +1,44 @@
+div.data-list {
+    width: 100%;
+    margin-top: 20px;
+}
+div.card{    
+    position: relative;
+    color: #282c34;
+	background: #fafafa;
+    padding: 25px;
+    box-shadow: 0 1px 8px 1px rgba(40, 44, 52, 0.3);
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-radius: 5px;
+}
+.card:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+div.row.c4{
+    display: grid;
+    grid-template-columns: 22.75% 22.75% 22.75% 22.75%;
+    grid-column-gap: 3%;
+    grid-row-gap: 20px;
+}
+div.row.c3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 6%;
+    grid-row-gap: 6%;
+}
+div.row.c2{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-column-gap: 6%;
+    grid-row-gap: 20px;
+}
+.rating-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

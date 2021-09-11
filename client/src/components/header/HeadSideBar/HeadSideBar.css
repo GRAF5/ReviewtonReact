@@ -1,0 +1,52 @@
+.sideBar{
+    position: fixed;
+    top: 0;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+.sideBar-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.2);
+    z-index: 1;
+}
+.sideBar-wrapper{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    background-color: #fff;
+    width: 70%;
+    height: 100%;
+}
+.links-auth{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    margin: 0;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.12);
+    border: none;
+}
+.sideBar-links a{
+    display: flex;
+    color: #939393;
+    align-items: center;
+    height: 48px;
+    padding: 0 20px;
+    text-decoration: none;
+    width: 100%;
+}
+.admin-list ul{
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+    list-style-type: none;
+}

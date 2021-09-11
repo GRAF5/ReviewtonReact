@@ -1,0 +1,14 @@
+footer {
+    background-color: #282c34;
+}
+footer p{
+    opacity: 50%;
+    font-size: 15px;
+    padding: 5px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 60px;
+}
