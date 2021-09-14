@@ -211,7 +211,7 @@ function AddOrUpdateGroup(params){
                                                     <div key={category.name +" "+ index} id={atr.name} className="atribute">
                                                         <InputField onChange={(e)=>changeAtribute(e)} id={atr.name} label="Название атрибута" name="name" value={atr.name}/>
                                                         <Checkbox onChange={(e)=>changeAtribute(e)} id={atr.name} name="isArray" label="Множество?" checked={atr.isArray} />
-                                                        <Button style="danger form-group-button" id={atr.name} onClick={(e)=>deleteAtribute(e)} value="Удалить" />
+                                                        <Button style="danger" id={atr.name} onClick={(e)=>deleteAtribute(e)} value="Удалить" />
                                                         
                                                     </div>)
                                                     :null

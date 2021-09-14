@@ -12,6 +12,7 @@ function StarRating({rating}){
     const topStyle ={
         width: calcWidth()
     };
+    
     return(
         <ul className="star-rating">
             <div className="star-rating-top" style={topStyle}>

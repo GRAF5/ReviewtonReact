@@ -64,6 +64,7 @@ function Header(props){
                                     : 
                                     <>                                    
                                         <CustomLink onClick={adminPopoverOff} to="/login" style="navBar" variant="outlined" value="Войти"/>
+                                        &nbsp;
                                         <CustomLink onClick={adminPopoverOff} to="/register" style="navBar" variant="contained" value="Регистрация"/>
                                     </>}                                
                             </div>
